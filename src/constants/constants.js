@@ -3,7 +3,7 @@ export const projects = [
     title: "HNE Futures Website",
     description:
       "This is a website I built from scratch for my company at the time HNE Futures using React, Node.js, MongoDB, and Next.js. In addition to giving input for the UI/UX design of the website.",
-    image: "/images/hnefutureswebsite.png",
+    image: "../images/hnefutureswebsite.png",
     tags: [
       { name: "React", link: "https://react.dev/" },
       { name: "Next.js", link: "https://nextjs.org/" },
@@ -16,7 +16,7 @@ export const projects = [
     title: "HNE Futures Application",
     description:
       "This is an Android/iOS application I built from scratch for my company at the time using React Native, Expo and an OCPP connection. The application provides locations, routes and controls for the company's EV chargers. And the ability to create accounts and add chargers to the map with custom specifications",
-    image: "/images/hneapp.png",
+    image: "images/hneapp.png",
     tags: [
       { name: "React Native", link: "https://www.hnefutures.com/app" },
       { name: "Expo", link: "https://www.hnefutures.com/app" },
