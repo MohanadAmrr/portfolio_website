@@ -124,8 +124,4 @@ export const TimeLineData = [
     year: 2023,
     text: "Delivered multiple projects and was awarded employee of the month for January & March 2023 in AvidBeam",
   },
-  {
-    year: 2023,
-    text: "Delivered multiple projects and was awarded employee of the month for January & March 2023 in AvidBeam",
-  },
 ];
