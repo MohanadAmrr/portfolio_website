@@ -42,7 +42,7 @@ export const projects = [
     title: "Farah News Website",
     description:
       "This is a news website I built from scratch as a freelancer for a client using Vue.js, Node.js, Typescript and MySQL. This site provides the latest news.",
-    image: "/images/Farah.png",
+    image: "images/Farah.png",
     tags: [
       { name: "Vue.js", link: "https://vuejs.org/" },
       { name: "Node.js", link: "https://nodejs.org/en/about" },
