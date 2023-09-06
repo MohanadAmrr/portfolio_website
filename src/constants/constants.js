@@ -55,7 +55,7 @@ export const projects = [
     title: "AqarMap",
     description:
       "This is a real estate website I built from scratch as a freelancer for a client using Angular.js, Node.js, Typescript and AWS. This site provides a huge list of real estate all over Egypt up for sale and rent.",
-    image: "/images/Aqarmap.png",
+    image: "images/Aqarmap.png",
     tags: [
       { name: "Angular", link: "https://angular.io/" },
       { name: "Node.js", link: "https://nodejs.org/en/about" },
