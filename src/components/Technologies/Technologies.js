@@ -1,15 +1,26 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range a technologies in the web, and app development
+      world. From Back End To Front End.
     </SectionText>
     <List>
       <ListItem>
@@ -19,8 +30,17 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            React.js <br />
+            Next.js
+            <br /> Vue.js <br />
+            Typescript
+            <br /> AngularJS <br />
+            React Native
+            <br /> HTML/CSS
+            <br />
+            QT
+            <br />
+            JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,8 +51,16 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Node.js <br />
+            Express.js <br /> ASP.NET Core <br />
+            Django
+            <br />
+            Python
+            <br />
+            C++
+            <br />C
+            <br />
+            Java
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +69,13 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Miscellaneous:</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Apache Flink <br />
+            Docker <br /> RabbitMQ <br /> Protobuf <br /> MySQL <br />
+            AWS
+            <br /> MongoDB <br />
+            Git
           </ListParagraph>
         </ListContainer>
       </ListItem>

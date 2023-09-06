@@ -1,13 +1,29 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  {
+    number: "Excellent Grade",
+    text: "Graduation Project  which covered Multitask Regression in Sound Event Detection",
+  },
+  {
+    number: "Completed",
+    text: "UT.6.10x: Embedded Systems from UTAustinX",
+  },
+  {
+    number: "Awarded",
+    text: "Employee of the month for January & March 2023 in AvidBeam",
+  },
+  {
+    number: "A+",
+    text: "Embedded Engineering, Computer System Architecture, Software Engineering, Data Structures And Algorithms",
+  },
 ];
 
 const Acomplishments = () => (
@@ -16,12 +32,12 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{`${card.number}+`}</BoxNum>
+          <BoxNum>{`${card.number}`}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
     </Boxes>
-    <SectionDivider/>
+    <SectionDivider />
   </Section>
 );
 
