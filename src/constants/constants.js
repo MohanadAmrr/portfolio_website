@@ -69,7 +69,7 @@ export const projects = [
     title: "AvidFace Multimedia Web Application",
     description:
       "This is a Multimedia Web Application that i built as a part of a larger product the company provides called AvidFace. The web application is used by our clients to capture their employees' face pictures and add them into a database, then an Image Processing API I built assesses the quality of the image captured by our clients and either approve its insertion to the database or not.",
-    image: "/images/Avidface.webp",
+    image: "images/Avidface.webp",
     tags: [
       { name: "C++", link: "https://cplusplus.com/" },
       { name: "QT", link: "https://www.qt.io/" },
