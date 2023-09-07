@@ -29,7 +29,7 @@ export const projects = [
     title: "Bluebus Website",
     description:
       "This is a transportation booking website I built from scratch for a client as a freelancer using React, Node.js, Express.js, Typescript and Firebase Databse. The user can search for and book trips using this website.",
-    image: "/images/Bluebus.png",
+    image: "images/Bluebus.png",
     tags: [
       { name: "React", link: "https://react.dev/" },
       { name: "Node.js", link: "https://nodejs.org/en/about" },
