@@ -101,7 +101,7 @@ export const projects = [
 export const TimeLineData = [
   {
     year: 2016,
-    text: "Graduate from HighSchool and entered Computer Science Engineeering",
+    text: "Graduated from HighSchool and entered Computer Science Engineeering",
   },
   {
     year: 2018,
