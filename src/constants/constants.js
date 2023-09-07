@@ -3,7 +3,7 @@ export const projects = [
     title: "HNE Futures Website",
     description:
       "This is a website I built from scratch for my company at the time HNE Futures using React, Node.js, MongoDB, and Next.js. In addition to giving input for the UI/UX design of the website.",
-    image: "../images/hnefutureswebsite.png",
+    image: "images/hnefutureswebsite.png",
     tags: [
       { name: "React", link: "https://react.dev/" },
       { name: "Next.js", link: "https://nextjs.org/" },
@@ -42,7 +42,7 @@ export const projects = [
     title: "Farah News Website",
     description:
       "This is a news website I built from scratch as a freelancer for a client using Vue.js, Node.js, Typescript and MySQL. This site provides the latest news.",
-    image: "./images/Farah.png",
+    image: "images/Farah.png",
     tags: [
       { name: "Vue.js", link: "https://vuejs.org/" },
       { name: "Node.js", link: "https://nodejs.org/en/about" },
@@ -85,7 +85,7 @@ export const projects = [
     title: "AvidAuto Web Dashboard",
     description:
       "This is a Web Dashboard that i built as a part of a larger product the company provides called AvidAuto. The dashboard provides user friendly browser interface for entering user queries, displaying query results and showing our Computer Vision data using friendly accessible UI.",
-    image: "../images/AvidAuto.png",
+    image: "images/AvidAuto.png",
     tags: [
       { name: "React", link: "https://react.dev/" },
       { name: "Next.js", link: "https://nextjs.org/" },
